@@ -56,6 +56,18 @@ http://www.templatemo.com/tm-516-known
     line-height: 24px;
   }
 
+  .translate{
+    background: transparent;
+    border: none;
+    margin-top: 24px;
+  }
+
+  .grow:hover {
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
+  }
+
   .bg-color {
     background-color: rgb(255, 10, 10);
   }
