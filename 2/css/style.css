@@ -66,6 +66,9 @@ http://www.templatemo.com/tm-516-known
     border-radius: 10px ;
 }
 
+.not-allowed {
+  cursor: default !important;
+}
   /*---------------------------------------
      GENERAL               
   -----------------------------------------*/
@@ -136,15 +139,24 @@ http://www.templatemo.com/tm-516-known
     float: right;
     
   }
-  .entry-form-map {
-  position:absolute;
-  top:0px;
-  right:125px;
-  width:375px;
-  height:260px; 
+
+  .entry-form2 {
+    background: #53ceec;
+    background-image: url(../images/entry-form2.jpg);
+    background-position: center;
+    border-radius: 100%;
+    width: 444px;
+    height: 444px;
+    float: right;
+    
   }
 
   .entry-form h2 {
+    color: #ffffff;
+    margin: 0;
+  }
+
+  .entry-form2 h2 {
     color: #ffffff;
     margin: 0;
   }
@@ -158,7 +170,8 @@ http://www.templatemo.com/tm-516-known
     height: 45px;
     margin: 10px 0;
   }
-  .entry-form-map .form-control {
+
+  .entry-form2 .form-control {
     background: transparent;
     border: 0;
     border-bottom: 1px solid;
@@ -179,7 +192,23 @@ http://www.templatemo.com/tm-516-known
     margin-bottom: 10px;
   }
 
+  .entry-form2 .submit-btn {
+    background: #ffffff;
+    border-radius: 50px;
+    border: 0;
+    color: #252020;
+    width: 50%;
+    height: 50px;
+    margin: 30px auto;
+    margin-bottom: 10px;
+  }
+
   .entry-form .submit-btn:hover {
+    background: #3f51b5;
+    color: #ffffff;
+  }
+
+  .entry-form2 .submit-btn:hover {
     background: #3f51b5;
     color: #ffffff;
   }
@@ -913,6 +942,11 @@ http://www.templatemo.com/tm-516-known
     float: left;
 }}
 
+@media (min-width: 768px){
+  .entry-form2 {
+    float: left;
+}}
+
   @media only screen and (max-width: 767px) {
     h1 {
       font-size: 2.5em;
@@ -967,6 +1001,11 @@ http://www.templatemo.com/tm-516-known
       display: block;
       margin: 0 auto;
     }
+
+    .entry-form {
+      display: block;
+      margin: 0 auto;
+    }
   }
 
 
@@ -994,6 +1033,9 @@ http://www.templatemo.com/tm-516-known
     }
 
     .entry-form {
+      display: none;
+    }
+    .entry-form2 {
       display: none;
     }
   }
